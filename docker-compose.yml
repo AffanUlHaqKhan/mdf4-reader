@@ -1,0 +1,31 @@
+services:
+  mdf4-reader:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    environment:
+      - MDF4_FILE=/app/data/input.mf4
+
+  mdf4-decoder:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    command: >
+      python src/decode.py
+      --mf4-folder /app/data/data-processing/LOG
+      --dbc-folder /app/data/data-processing/dbc_files
+      --output-dir /app/data/output
+
+  mdf4-reducer:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+      - ./configuration.json:/app/configuration.json
+    command: >
+      python src/reduce.py
+      --input-dir /app/data/output
+      --config /app/configuration.json
+      --output-dir /app/data/output

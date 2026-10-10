@@ -1,0 +1,484 @@
+{
+    "configurations": [
+        {
+            "product-name": [
+                "hmi-config"
+            ],
+            "sending-interval": 8000,
+            "signals": [
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 218000622,
+                    "message-name": "TCO1_BASIS",
+                    "signal-name": "driverCard2_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406119,
+                    "message-name": "auxStatMC1_BASE",
+                    "signal-name": "PCCAenabled_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970776,
+                    "message-name": "auxStatMC23_VAR1",
+                    "signal-name": "tsiToleranceSetting_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406615,
+                    "message-name": "auxStatInst3_BASE",
+                    "signal-name": "uiFCWactivWrnReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452920069,
+                    "message-name": "CVM_05_VAR1",
+                    "signal-name": "LKAselected_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970774,
+                    "message-name": "auxStatMC16_VAR1",
+                    "signal-name": "PCCAdynamicRollEnabled_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970774,
+                    "message-name": "auxStatMC16_VAR1",
+                    "signal-name": "PCCAvarSpdLimiterEnabled_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970780,
+                    "message-name": "auxStatMC27_VAR1",
+                    "signal-name": "FCWwarningSelected_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419361024,
+                    "message-name": "cruiseControlVehicleSpeed_BASIS",
+                    "signal-name": "CCactive_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970776,
+                    "message-name": "auxStatMC23_VAR1",
+                    "signal-name": "tsiEnableSpdWrn_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970776,
+                    "message-name": "auxStatMC23_VAR1",
+                    "signal-name": "tsiSelectedMode_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406615,
+                    "message-name": "auxStatInst3_BASE",
+                    "signal-name": "brkmaticOffsetReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406871,
+                    "message-name": "auxStatInst4_BASE",
+                    "signal-name": "LDWenableReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406871,
+                    "message-name": "auxStatInst4_BASE",
+                    "signal-name": "TJAenableReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977175,
+                    "message-name": "auxStatInst5_BASE",
+                    "signal-name": "CCselectedModeReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977175,
+                    "message-name": "auxStatInst5_BASE",
+                    "signal-name": "EBAactivationReqVRU_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977175,
+                    "message-name": "auxStatInst5_BASE",
+                    "signal-name": "EBAactivationReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977175,
+                    "message-name": "auxStatInst5_BASE",
+                    "signal-name": "tsiModeReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977175,
+                    "message-name": "auxStatInst5_BASE",
+                    "signal-name": "tsiTolSettingReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970779,
+                    "message-name": "auxStatMC26_VAR1",
+                    "signal-name": "EBAselectedVRU_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970785,
+                    "message-name": "auxStatMC21_VAR1",
+                    "signal-name": "TJAselected_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452922391,
+                    "message-name": "parkHeaterInfo_VAR1",
+                    "signal-name": "uiLCWactivationReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419387943,
+                    "message-name": "diagVehState_BASE",
+                    "signal-name": "clamp15netw_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419407655,
+                    "message-name": "auxStatMC6_VAR1",
+                    "signal-name": "curBrkmaticMode_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419407655,
+                    "message-name": "auxStatMC6_VAR1",
+                    "signal-name": "curBrkmaticSpeedAbs_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970776,
+                    "message-name": "auxStatMC23_VAR1",
+                    "signal-name": "tsiChangeInfoSetting_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452971303,
+                    "message-name": "auxStatMC19_VAR1",
+                    "signal-name": "LCWselected_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452978727,
+                    "message-name": "LCprop2_BASE",
+                    "signal-name": "selectedLanguage_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406615,
+                    "message-name": "auxStatInst3_BASE",
+                    "signal-name": "hmiWarningAGenabledReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406615,
+                    "message-name": "auxStatInst3_BASE",
+                    "signal-name": "uiFCWactivActWrnReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406871,
+                    "message-name": "auxStatInst4_BASE",
+                    "signal-name": "PCCAdynamicRollEnableReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406871,
+                    "message-name": "auxStatInst4_BASE",
+                    "signal-name": "PCCAinfrastructEnableReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977175,
+                    "message-name": "auxStatInst5_BASE",
+                    "signal-name": "DIGenableDistWrnReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977175,
+                    "message-name": "auxStatInst5_BASE",
+                    "signal-name": "tsiChangeInfoSettingReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977175,
+                    "message-name": "auxStatInst5_BASE",
+                    "signal-name": "tsiEnableSpdWrnReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970779,
+                    "message-name": "auxStatMC26_VAR1",
+                    "signal-name": "EBAselected_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452920069,
+                    "message-name": "CVM_05_VAR1",
+                    "signal-name": "LDWselectedCB_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452920069,
+                    "message-name": "CVM_05_VAR1",
+                    "signal-name": "LGAselected_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452922391,
+                    "message-name": "parkHeaterInfo_VAR1",
+                    "signal-name": "uiTCWactivationReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970774,
+                    "message-name": "auxStatMC16_VAR1",
+                    "signal-name": "PCCAinfrastructEnabled_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970756,
+                    "message-name": "auxStatMC4_VAR1",
+                    "signal-name": "dispDriveProgram_VAR1"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 218000622,
+                    "message-name": "TCO1_BASIS",
+                    "signal-name": "driverCard1_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452971303,
+                    "message-name": "auxStatMC19_VAR1",
+                    "signal-name": "TCWselected_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406615,
+                    "message-name": "auxStatInst3_BASE",
+                    "signal-name": "intBrkSwReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406871,
+                    "message-name": "auxStatInst4_BASE",
+                    "signal-name": "LGAenableReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419406871,
+                    "message-name": "auxStatInst4_BASE",
+                    "signal-name": "PCCAvarSpdLimiterEnableReq_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452977154,
+                    "message-name": "auxStatInst8_BASE",
+                    "signal-name": "currSelectMenuID_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970779,
+                    "message-name": "auxStatMC26_VAR1",
+                    "signal-name": "hmiWarningAGenabled_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970780,
+                    "message-name": "auxStatMC27_VAR1",
+                    "signal-name": "FCWacuteWarningSelected_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452970756,
+                    "message-name": "auxStatMC4_VAR1",
+                    "signal-name": "rollMaticEnabled_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 218000622,
+                    "message-name": "TCO1_BASIS",
+                    "signal-name": "tachographVehicleSpeed_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 218000622,
+                    "message-name": "TCO1_BASIS",
+                    "signal-name": "directionIndicator_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 218000622,
+                    "message-name": "TCO1_BASIS",
+                    "signal-name": "driveRecognize_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 418384190,
+                    "message-name": "VDC2_BASIS",
+                    "signal-name": "lateralAcceleration_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 418384190,
+                    "message-name": "VDC2_BASIS",
+                    "signal-name": "longitudinalAcceleration_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452920132,
+                    "message-name": "CVM_62_BASE",
+                    "signal-name": "vehicleDriveState_BASE"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 218000622,
+                    "message-name": "TCO1_BASIS",
+                    "signal-name": "driver1workingState_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 452920139,
+                    "message-name": "CVM_69_BASE",
+                    "signal-name": "engineSpeed_BASIS"
+                },
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419360256,
+                    "message-name": "engineTemperature_BASIS",
+                    "signal-name": "engineCoolantTemperature_BASIS"
+                }
+            ]
+        }
+    ]
+}

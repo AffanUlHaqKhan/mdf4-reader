@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "product-name": [
+                "Producta"
+            ],
+            "sending-interval": 8000,
+            "signals": [
+                {
+                    "data-reduction": {
+                        "reduction-type": "sampling",
+                        "time" : 4000
+                    },
+                    "message-id": 217056510,
+                    "message-name": "EEC1",
+                    "signal-name": "EngineSpeed"
+                }
+            ]
+        },
+        {
+            "product-name": [
+                "productsb"
+            ],
+            "sending-interval": 4,
+            "signals": [
+                {
+                    "data-reduction": {
+                        "reduction-type": "onChange"
+                    },
+                    "message-id": 419361278,
+                    "message-name": "CCVS1",
+                    "signal-name": "WheelBasedVehicleSpeed"
+                }
+            ]
+        },
+        {
+            "product-name": [
+                "productsb"
+            ],
+            "sending-interval": 4,
+            "signals": [
+                {
+                    "data-reduction": {
+                        "reduction-type": "none"
+                    },
+                    "message-id": 419361278,
+                    "message-name": "CCVS1",
+                    "signal-name": "WheelBasedVehicleSpeed"
+                }
+            ]
+        }
+    ]
+}

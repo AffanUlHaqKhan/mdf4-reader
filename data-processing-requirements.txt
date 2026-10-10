@@ -1,0 +1,9 @@
+mdf-iter>=2.1.1
+canedge-browser>=0.0.8
+can_decoder>=0.1.9
+canmatrix>=0.9.5
+pandas>=1.5.3
+numpy>=1.24.1
+J1939-PGN>=0.4
+openpyxl>=3.0.0
+pyarrow>=14.0.0
